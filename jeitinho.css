@@ -1,0 +1,70 @@
+    body {
+      font-family: Georgia;
+      background-color: aliceblue;
+      margin-left: 2em;
+    }
+    p {
+        margin-left: 1em;
+        font-size: 20px;
+        border: 2em;
+        border-color: black;
+        max-height: 40mm;
+        max-width: 340mm;
+    }
+    
+    .cont {
+        display: grid;
+        text-align: center;
+        align-items: center;
+        border-radius: 0.8em;
+        width: 200px;
+        height: 50px;
+        background-color: rgba(30, 143, 255, 0.389);
+    
+    }
+    .contest {
+        display: grid;
+        text-align: center;
+        align-items: center;
+        border-radius: 0.8em;
+        width: 500px;
+        height: 50px;
+        background-color: rgba(30, 143, 255, 0.389);
+    
+    }
+    .contContato {
+        font-size: 1.8em;
+        display: grid;
+        text-align: center;
+        align-items: center;
+        border-radius: 0.8em;
+        width: 200px;
+        height: 50px;
+        background-color: rgba(30, 143, 255, 0.389);
+        }
+    
+    .container {
+        width: 1000px;
+        height: auto;
+        border-radius: 10px;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .card {
+        width: 1000px;
+        height: auto;
+        border-radius: 10px;
+        padding: 20px;        
+    }
+
+    a {
+        color: black;
+    }
+
+    .imagem {
+        border-radius: 2em;
+        width: 200px;
+        height: 200px;
+    }
+   
