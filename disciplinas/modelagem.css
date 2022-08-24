@@ -1,0 +1,19 @@
+body {
+    font-family: Georgia;
+    background-color: aliceblue;
+    margin-left: 2em;
+    }
+.cont {
+        display: grid;
+        text-align: center;
+        align-items: center;
+        border-radius: 0.8em;
+        width: 500px;
+        height: 55px;
+        background-color: rgba(30, 143, 255, 0.389);
+    
+    }
+
+h6 {
+    margin-left: 3.4em;
+}
