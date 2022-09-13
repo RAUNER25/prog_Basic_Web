@@ -1,0 +1,42 @@
+<!-- Codigo elaborado no dia 09.08.22; tempo gasto 3.30horas; Por Ruaner Lucas -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rauner lucas A. A.">
+    <meta name="description" content="Site referente a disciplina de b.web">
+    <title>Contato</title>
+	<link rel="stylesheet" href="jeitinho.css">
+</head>
+<body>
+    <header>
+        <h1 class="contContato">Contato</h1>
+        <nav>
+            <li><a href="https://rauner25.github.io/index.html"><i>Inicial</i></a></li>
+        </nav>
+    </header>
+    <article class="container">
+        <section>
+            <form action="/msg.php" method="post" class="formt">
+                <div class="mods">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="Nome" id="nome">
+                </div>
+                <div class="mods">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="E-mail" id="email">
+                </div>
+                <div class="mods">
+                    <label for="msg">Mensagem: </label><br>
+                    <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
+                </div>    
+                <div class="submt">
+                    <input type="submt" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </article>
+</body>
+</html>
