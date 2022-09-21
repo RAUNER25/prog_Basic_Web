@@ -69,7 +69,6 @@
         border: 10px ridge rgba(30, 143, 255, 0.389);
         width: 350px;
         height: auto; 
-        text-align: center;  
         padding: .5em;
     }
 
@@ -77,7 +76,13 @@
         border-radius: .3em;
         border-color: rgba(30, 143, 255, 0.389);
         box-shadow: 1px 1px 1px 1px black;
-        width: 70%;
+        width: 50%;
+    }
+    form input[type="text"] {
+        border-radius: .3em;
+        border-color: rgba(30, 143, 255, 0.389);
+        box-shadow: 1px 1px 1px 1px black;
+        width: 100px;
     }
 
     form input:required {
@@ -101,10 +106,13 @@
 
     form label {
         width: 150px;
+        display: inline-block;
+        text-align: right;
     }
 
     form textarea{
         font-family: 'Franklin Gothic Medium';
+        margin-left: 1em;
         font-size: .8em;
         width: 90%;
         border-radius: .3em;
@@ -118,5 +126,6 @@
         border-radius: .5rem;
         box-shadow: 1px 1px 1px 1px black;
         width: 50%;
+        margin-left: 90px;
     }
     
