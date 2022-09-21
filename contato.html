@@ -17,22 +17,23 @@
             <li><a href="https://rauner25.github.io/prog_Basic_Web/"><i>Inicial</i></a></li>
         </nav>
     </header>
-    <article class="container">
+    <article>
         <section>
-            <form action="https://rauner25.github.io/prog_Basic_Web/msg.php" method="post" class="formt">
-                <div class="mods">
+            <form action="https://rauner25.github.io/prog_Basic_Web/msg.php" method="post">
+                <div>
                     <label for="nome">Nome: </label>
-                    <input type="text" name="Nome" id="nome">
+                    <input type="text" name="Nome" id="nome" placeholder="Insira Seu Nome">
                 </div>
-                <div class="mods">
+                <div>
                     <label for="email">E-mail: </label>
-                    <input type="email" name="E-mail" id="email">
+                    <input type="email" name="E-mail" id="email" pattern="[a-z0-9._]+@[a-z0-9.-]+\.[a-z]{2,}$" required 
+                    placeholder="Informe seu E-mail">
                 </div>
-                <div class="mods">
+                <div>
                     <label for="msg">Mensagem: </label><br>
-                    <textarea name="mensagem" id="msg" cols="30" rows="10"> </textarea>
+                    <textarea name="mensagem" id="msg" cols="30" rows="10" required title="Insira a Mensagem"></textarea>
                 </div>    
-                <div class="submit">
+                <div>
                     <button type="submit">Enviar</button>
                 </div>
             </form>
