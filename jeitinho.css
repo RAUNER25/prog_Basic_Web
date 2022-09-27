@@ -120,12 +120,15 @@
         border-color: rgba(30, 143, 255, 0.389);
     }
     button{
-        background-color: rgba(30, 143, 255, 0.389);
+        /*background-color: rgba(30, 143, 255, 0.389);*/
+        background-color: #87CEEB;
         font-size: 20px;
         font-family: 'Times New Roman';
         border-radius: .5rem;
-        box-shadow: 1px 1px 1px 1px black;
+        box-shadow: 1px 1px 2px 1px black;
         width: 50%;
+        height: 30px;
         margin-left: 90px;
+        margin-top: 10px;
     }
     
