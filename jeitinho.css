@@ -130,5 +130,16 @@
         height: 30px;
         margin-left: 90px;
         margin-top: 10px;
+        cursor: pointer;
     }
     
+    button:hover{
+        background-color: rgba(30, 143, 255, 0.632);
+    }
+
+    button:active{
+        background-color: rgba(30, 143, 255, 0.632);
+        box-shadow: 1px 1px 3px 1px black;
+        transform: translate(4px);
+
+    }
