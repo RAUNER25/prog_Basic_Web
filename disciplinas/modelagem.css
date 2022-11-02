@@ -1,8 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Georgia;
     background-color: aliceblue;
-    margin-left: 2em;
     }
+
+article, header{
+    margin: 1em 2em;
+}
 .cont {
         display: grid;
         text-align: center;
@@ -11,9 +19,59 @@ body {
         width: 500px;
         height: 55px;
         background-color: rgba(30, 143, 255, 0.389);
-    
     }
 
 h6 {
     margin-left: 3.4em;
+}
+
+nav {
+    width: 100%;
+    height: 2.8em;
+    float: inherit;
+    margin-bottom: 1em;
+    background-color: cadetblue;
+    padding: 0 82%;
+  }
+
+
+ul {
+    list-style: none;
+    padding-left: 1;
+
+}
+ul li:hover, 
+ul li:focus-within {
+    background-color: darkcyan;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul il ul:focus{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+a:hover{
+    color: white;
+}
+
+li {
+    background-color: cadetblue;
+    display: block;
+    float: left;
+    padding: .8em;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
 }
