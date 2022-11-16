@@ -1,64 +1,42 @@
-    body {
-      font-family: Georgia;
-      background-color: aliceblue;
-      margin-left: 2em;
+    
+    * {
+        margin: 0;
+        padding: 0;        
+        font-family: Georgia;
+        background-color: aliceblue;
     }
+    
+    .card{
+        margin: 2em auto 2em;
+        width: min(100%, 75em);
+    }      
+
     p {
-        margin-left: 1em;
-        font-size: 20px;
-        border: 2em;
+        font-size: 1.2em;
         border-color: black;
-        max-height: 40mm;
-        max-width: 340mm;
-    }
-    
-    .cont {
-        display: grid;
-        text-align: center;
-        align-items: center;
-        border-radius: 0.8em;
-        width: 200px;
-        height: 50px;
-        background-color: rgba(30, 143, 255, 0.389);
-    
-    }
-    .contest {
-        display: grid;
-        text-align: center;
-        align-items: center;
-        border-radius: 0.8em;
-        width: 500px;
-        height: 50px;
-        background-color: rgba(30, 143, 255, 0.389);
-    
-    }
-    .contContato {
-        font-size: 30px;
-        display: grid;
-        text-align: center;
-        align-items: center;
-        border-radius: 0.8em;
-        width: 200px;
-        height: 50px;
-        background-color: rgba(30, 143, 255, 0.389);
-        }
-
-
-    .card {
-        width: 1000px;
-        height: auto;
-        border-radius: 10px;
-        padding: 20px;        
     }
 
     a {
         color: black;
     }
 
+    a:hover{
+        color: rgba(96, 161, 227, 0.632);
+    }
+
     .imagem {
         border-radius: 2em;
         width: 200px;
         height: 200px;
+        margin-bottom: 1em;
+    }
+
+    .cont{
+        background-color: rgba(30, 143, 255, 0.389);
+        margin: .5em;
+        padding: .7em;
+        width: auto;
+        border-radius: 20px;
     }
     
     form {
@@ -143,3 +121,42 @@
         transform: translate(4px);
 
     }
+    
+    ul {
+        list-style: none;
+        padding-left: 1;
+    
+    }
+
+    ul li:hover, 
+    ul li:focus-within {
+        background-color: darkcyan;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+    
+    ul li:hover>ul,
+    ul li:focus-within>ul,
+    ul li ul:hover,
+    ul il ul:focus{
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
+    
+    li {
+        background-color: cadetblue;
+        display: block;
+        float: left;
+        padding: .8em;
+        position: relative;
+        text-decoration: none;
+        transition-duration: 0.2s;
+    }
+    
+    li a {
+        color: black;
+        text-decoration: none;
+    }
+    
