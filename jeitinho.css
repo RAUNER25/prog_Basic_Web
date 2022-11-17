@@ -1,20 +1,23 @@
-    
+
     * {
         margin: 0;
         padding: 0;        
         font-family: Georgia;
         background-color: aliceblue;
     }
+    .container{
+        display: flex;
+        margin: 1em;
+        padding: 1em;
+        flex-flow: row wrap;
+    }
     
     .card{
-        margin: 2em auto 2em;
+        margin: .5em;
         width: min(100%, 75em);
+        flex: 35%;
+        font-size: 1.3em;
     }      
-
-    p {
-        font-size: 1.2em;
-        border-color: black;
-    }
 
     a {
         color: black;
@@ -38,6 +41,12 @@
         width: auto;
         border-radius: 20px;
     }
+    
+    h1, h2{
+        font-size: 1.6em;
+    }
+
+/*---- Contato----*/
     
     form {
         background-color: rgba(30, 143, 255, 0.108);
